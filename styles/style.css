@@ -1,0 +1,154 @@
+html,
+body {
+  background-color: #121212;
+  font-family: 'Arimo', arial, sans-serif;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+/* Side navbar */
+header {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  margin: 1.875rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.3125rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: 2.25rem;
+  margin-right: 1.25rem;
+  margin-left: -0.3rem;
+}
+
+span {
+  color: hsl(0, 0%, 95%);
+}
+
+.navbar {
+  position: fixed;
+  top: 0rem;
+  left: 0rem;
+  width: 14.3rem;
+  height: 100%;
+  background: #121212;
+  border-right: 0.5px solid hsl(0, 0%, 40%);
+}
+
+.navbar ul {
+  height: 100%;
+  background: #121212;
+  line-height: 2.25;
+  margin-left: 0.625rem;
+  margin-top: 0.625rem;
+}
+
+.navbar li {
+  position: relative;
+  color: #f7df1e;
+  list-style-type: none;
+  padding-left: 1.25rem;
+  left: -2.8125rem;
+}
+
+a {
+  color: #f7df1e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f7df1e;
+  text-decoration: underline;
+}
+
+/* Main documentation */
+section article {
+  color: hsl(0, 0%, 70%);
+  margin: 0 auto;
+  font-size: 0.96rem;
+}
+
+.main-doc {
+  position: relative;
+  text-align: left;
+  margin-left: 15.625rem;
+  margin-right: 1.25rem;
+  margin-top: -1.4375rem;
+  padding: 1.5625rem;
+}
+
+.main-doc header {
+  text-align: left;
+  margin-top: 1.125rem;
+  margin-left: 0rem;
+  color: hsl(0, 0%, 95%);
+}
+
+code {
+  display: block;
+  text-align: left;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  padding: 0.9375rem;
+  margin: 0.625rem;
+  margin-left: 0.9375rem;
+  border-radius: 0.3125rem;
+}
+
+h2 {
+  color: hsl(0, 0%, 90%);
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+hr {
+  border: 0;
+  background-color: hsl(0, 0%, 40%);
+  height: 0.03125rem;
+  margin-top: 1.875rem;
+}
+
+em {
+  text-decoration: underline;
+}
+
+.reference {
+  text-align: center;
+  color: hsl(0, 0%, 75%);
+  font-size: 0.96rem;
+  margin-bottom: -0.1875rem;
+  padding-top: 0.5rem;
+}
+
+/* Media queries */
+@media (max-width: 815px) {
+  header {
+    margin-left: 0.8125rem;
+  }
+
+  img {
+    margin-left: 0.75rem;
+  }
+
+  .navbar {
+    position: relative;
+    border-right: none;
+  }
+
+  .navbar ul {
+    margin-bottom: 1.25rem;
+    margin-left: 0.6rem;
+  }
+
+  .main-doc {
+    position: relative;
+    left: 0;
+    margin: 0;
+    margin-top: -1.5rem;
+  }
+}
