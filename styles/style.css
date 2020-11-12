@@ -35,7 +35,7 @@ span {
   width: 14.3rem;
   height: 100%;
   background: #121212;
-  border-right: 0.5px solid hsl(0, 0%, 40%);
+  border-right: 0.03125rem solid hsl(0, 0%, 40%);
 }
 
 .navbar ul {
